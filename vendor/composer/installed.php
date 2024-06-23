@@ -373,6 +373,33 @@
                 0 => 'v10.48.14',
             ),
         ),
+        'intervention/gif' => array(
+            'pretty_version' => '4.1.0',
+            'version' => '4.1.0.0',
+            'reference' => '3a2b5f8a8856e8877cdab5c47e51aab2d4cb23a3',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../intervention/gif',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'intervention/image' => array(
+            'pretty_version' => '3.7.0',
+            'version' => '3.7.0.0',
+            'reference' => '6bfd3dd1d430c5224c728dc4f8b2fdc757b5eaf5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../intervention/image',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'intervention/image-laravel' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'reference' => '24738a017d42a6fa8d9adabdbd69a2c19c5b0d30',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../intervention/image-laravel',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
