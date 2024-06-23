@@ -1,7 +1,14 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\BenchImageController;
+use App\Http\Controllers\BenchProductController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\PotImageController;
+use App\Http\Controllers\PotProductController;
+use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 
 /*
