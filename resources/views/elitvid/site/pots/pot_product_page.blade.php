@@ -82,19 +82,19 @@
                         <div class="content_images__colors">
                             <h4>Цвета</h4>
                             <div class="images_colors__images">
-                                <div data-color="серый бетон" data-title="Серый бетон" class="image_color">
+                                <div data-color="серый%20бетон" data-title="Серый бетон" class="image_color">
                                     <img src="{{asset('/elitvid_assets/imgs/pots/colors/grey_concrete_color.png')}}" alt="">
                                 </div>
                                 <div data-color="графит" data-title="Графит" class="image_color">
                                     <img src="{{asset('/elitvid_assets/imgs/pots/colors/graphite_color.png')}}" alt="">
                                 </div>
-                                <div data-color="чёрный" data-title="Черный" class="image_color">
+                                <div data-color="черный" data-title="Черный" class="image_color">
                                     <img src="{{asset('/elitvid_assets/imgs/pots/colors/black_color.png')}}" alt="">
                                 </div>
                                 <div data-color="белый" data-title="Белый" class="image_color">
                                     <img src="{{asset('/elitvid_assets/imgs/pots/colors/white_color.png')}}" alt="">
                                 </div>
-                                <div data-color="слоновая кость" data-title="Слоновая кость" class="image_color">
+                                <div data-color="слоновая%20кость" data-title="Слоновая кость" class="image_color">
                                     <img src="{{asset('/elitvid_assets/imgs/pots/colors/ivory_color.png')}}" alt="">
                                 </div>
                                 <div data-color="песочный" data-title="Песочный" class="image_color">

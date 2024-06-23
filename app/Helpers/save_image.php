@@ -8,7 +8,8 @@ function save_image($file, $image)
 //    if ($request->hasFile('image')) {
 //        foreach ($request->file('image') as $file) {
 
-            $name = $file->getClientOriginalName();
+//            $name = $file->getClientOriginalName();
+            $name = str_replace(' ','%20', $file->getClientOriginalName());
 
             $tmp_name = explode('.', $name);
 
