@@ -13,7 +13,15 @@ return new class extends Migration
     {
         Schema::create('pot_products', function (Blueprint $table) {
             $table->id();
+            $table->string ('name', '255')->nullable('false');
+            $table->string ('material', '255')->nullable('false');
+            $table->string ('size','255')->nullable('false');
+            $table->string ('weight','255')->nullable('false');
+            $table->string ('price', '255')->nullable('false');
+            $table->text ('collection')->nullable('false');
+            $table->boolean ('active')->default(true);
             $table->timestamps();
+            $table->softDeletes ();
         });
     }
 

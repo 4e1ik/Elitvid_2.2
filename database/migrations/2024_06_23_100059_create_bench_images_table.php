@@ -12,8 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('bench_images', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id ();
+            $table->unsignedBigInteger ('bench_product_id')->nullable('true');
+            $table->foreign ('bench_product_id')->references('id')->on('bench_products')->onDelete('cascade')->onUpdate('cascade');
+            $table->string ('image', 255)->nullable('true');
+            $table->text ('description_image')->nullable('true');
+            $table->timestamps ();
         });
     }
 

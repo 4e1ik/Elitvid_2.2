@@ -4,9 +4,11 @@
     <main>
         @include('includes.elitvid.popup_call')
         @include('includes.elitvid.popup_application')
+
         <section class="main">
             <div class="description">
                 <div class="description-text">
+{{--                    {{Route::currentRouteName()}}--}}
                     <h1>современные<br>малые формы</h1>
                     <p>Наш опыт и знания позволяют нам реализовать самые сложные и
                         оригинальные задачи по Вашим размерам, эскизам и чертежам.</p>
