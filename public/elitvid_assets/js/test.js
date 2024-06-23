@@ -11,6 +11,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const vaseImage = document.getElementById('image');
     const firstImage = document.getElementById('first_image');
+    vaseImage.style.display = 'none';
     let currentTexture = 'мрамор';
     let currentColor = 'графит';
 
@@ -20,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     textures.forEach(img => {
         img.addEventListener('click', () => {
             firstImage.style.display = 'none';
+            vaseImage.style.display = 'block';
             currentTexture = img.getAttribute('data-texture');
             updateImage();
         });
@@ -28,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     colors.forEach(div => {
         div.addEventListener('click', () => {
             firstImage.style.display = 'none';
+            vaseImage.style.display = 'block';
             currentColor = div.getAttribute('data-color');
             updateImage();
         });
