@@ -20,7 +20,7 @@ return [
      * get site key @ www.google.com/recaptcha/admin
      *
      */
-    'api_site_key' => env('RECAPTCHA_SITE_KEY', ''),
+    'api_site_key'                 => env('RECAPTCHA_SITE_KEY', ''),
 
     /**
      *
@@ -28,7 +28,7 @@ return [
      * get secret key @ www.google.com/recaptcha/admin
      *
      */
-    'api_secret_key' => env('RECAPTCHA_SECRET_KEY', ''),
+    'api_secret_key'               => env('RECAPTCHA_SECRET_KEY', ''),
 
     /**
      *
@@ -38,7 +38,7 @@ return [
      * get more info @ https://developers.google.com/recaptcha/docs/versions
      *
      */
-    'version' => 'v3',
+    'version'                      => 'v2',
 
     /**
      *
@@ -46,7 +46,7 @@ return [
      * @since v3.5.0
      *
      */
-    'curl_timeout' => 10,
+    'curl_timeout'                 => 10,
 
     /**
      *
@@ -54,7 +54,7 @@ return [
      * IP/CIDR netmask eg. 127.0.0.0/24, also 127.0.0.1 is accepted and /32 assumed
      *
      */
-    'skip_ip' => env('RECAPTCHA_SKIP_IP', []),
+    'skip_ip'                      => env('RECAPTCHA_SKIP_IP', []),
 
     /**
      *
@@ -62,7 +62,7 @@ return [
      * @since v3.2.0
      *
      */
-    'default_validation_route' => 'biscolab-recaptcha/validate',
+    'default_validation_route'     => 'biscolab-recaptcha/validate',
 
     /**
      *
@@ -80,7 +80,7 @@ return [
      * @since v3.6.0
      *
      */
-    'default_language' => null,
+    'default_language'             => null,
 
     /**
      *
@@ -88,7 +88,7 @@ return [
      * @since v4.0.0
      *
      */
-    'default_form_id' => 'biscolab-recaptcha-invisible-form',
+    'default_form_id'              => 'biscolab-recaptcha-invisible-form',
 
     /**
      *
@@ -99,7 +99,7 @@ return [
      * Supported true, false
      *
      */
-    'explicit' => false,
+    'explicit'                     => false,
 
     /**
      *
@@ -110,7 +110,7 @@ return [
      * Default 'www.google.com' (ReCaptchaBuilder::DEFAULT_RECAPTCHA_API_DOMAIN)
      *
      */
-    'api_domain' => 'www.google.com',
+    'api_domain'                   => 'www.google.com',
 
     /**
      *
@@ -136,32 +136,32 @@ return [
      * @see   https://developers.google.com/recaptcha/docs/display#render_param
      * @since v4.0.0
      */
-    'tag_attributes' => [
+    'tag_attributes'               => [
 
         /**
          * The color theme of the widget.
          * Supported "light", "dark"
          */
-        'theme' => 'light',
+        'theme'            => 'light',
 
         /**
          * The size of the widget.
          * Supported "normal", "compact"
          */
-        'size' => 'normal',
+        'size'             => 'normal',
 
         /**
          * The tabindex of the widget and challenge.
          * If other elements in your page use tabindex, it should be set to make user navigation easier.
          */
-        'tabindex' => 0,
+        'tabindex'         => 0,
 
         /**
          * The name of your callback function, executed when the user submits a successful response.
          * The g-recaptcha-response token is passed to your callback.
          * DO NOT SET "biscolabOnloadCallback"
          */
-        'callback' => null,
+        'callback'         => null,
 
         /**
          * The name of your callback function, executed when the reCAPTCHA response expires and the user needs to re-verify.
