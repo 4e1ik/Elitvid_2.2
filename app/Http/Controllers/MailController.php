@@ -33,6 +33,6 @@ class MailController extends Controller
         }
 
 //        dd($data);
-        return redirect(route('home'));
+//        return redirect(route('home'));
     }
 }
