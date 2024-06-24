@@ -227,26 +227,29 @@
                         <div class="content_images__colors content_images_boards-colors--mobile">
                             <h4>Цвета древесины</h4>
                             <div class="images_colors__images images_color-boards__images">
-                                <div data-title="Серый" class="image_color">
-                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/bench-color.png')}}" alt="">
+                                <div data-title="Белый" class="image_color">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/white.png')}}" alt="">
                                 </div>
                                 <div data-title="Серый" class="image_color">
-                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/bench-color.png')}}" alt="">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/grey.png')}}" alt="">
                                 </div>
-                                <div data-title="Серый" class="image_color">
-                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/bench-color.png')}}" alt="">
+                                <div data-title="Бесцветный" class="image_color">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/no_color.png')}}" alt="">
                                 </div>
-                                <div data-title="Серый" class="image_color">
-                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/bench-color.png')}}" alt="">
+                                <div data-title="Сосна" class="image_color">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/pine.png')}}" alt="">
                                 </div>
-                                <div data-title="Серый" class="image_color">
-                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/bench-color.png')}}" alt="">
+                                <div data-title="Тик" class="image_color">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/teak.png')}}" alt="">
                                 </div>
-                                <div data-title="Серый" class="image_color">
-                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/bench-color.png')}}" alt="">
+                                <div data-title="Мерабу" class="image_color">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/merabu.png')}}" alt="">
                                 </div>
-                                <div data-title="Серый" class="image_color">
-                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/bench-color.png')}}" alt="">
+                                <div data-title="Дуб" class="image_color">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/oak.png')}}" alt="">
+                                </div>
+                                <div data-title="Палисандр" class="image_color">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/rosewood.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
