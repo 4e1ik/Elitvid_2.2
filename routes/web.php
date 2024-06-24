@@ -24,8 +24,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MainController::class, 'index'])->name('home');
 
-Route::post('/sendForm', [MailController::class, 'send'])->name('send_mail');
-
 Route::get('/decorations', [MainController::class, 'decorations'])->name('decorations');
 
 Route::prefix('directions')->group(function () {
@@ -84,6 +82,8 @@ Route::prefix('directions')->group(function () {
         });
     });
 });
+
+Route::post('/sendForm', [MailController::class, 'send'])->name('send_mail');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'login']);
