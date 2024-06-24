@@ -594,6 +594,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'App\\Http\\Requests\\BenchProductRequest' => __DIR__ . '/../..' . '/app/Http/Requests/BenchProductRequest.php',
         'App\\Http\\Requests\\GalleryRequest' => __DIR__ . '/../..' . '/app/Http/Requests/GalleryRequest.php',
         'App\\Http\\Requests\\ImageRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ImageRequest.php',
+        'App\\Http\\Requests\\MailRequest' => __DIR__ . '/../..' . '/app/Http/Requests/MailRequest.php',
         'App\\Http\\Requests\\PotProductRequest' => __DIR__ . '/../..' . '/app/Http/Requests/PotProductRequest.php',
         'App\\Http\\Requests\\ProfileUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ProfileUpdateRequest.php',
         'App\\Http\\Requests\\TextureRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TextureRequest.php',

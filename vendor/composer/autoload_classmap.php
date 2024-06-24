@@ -32,6 +32,7 @@ return array(
     'App\\Http\\Requests\\BenchProductRequest' => $baseDir . '/app/Http/Requests/BenchProductRequest.php',
     'App\\Http\\Requests\\GalleryRequest' => $baseDir . '/app/Http/Requests/GalleryRequest.php',
     'App\\Http\\Requests\\ImageRequest' => $baseDir . '/app/Http/Requests/ImageRequest.php',
+    'App\\Http\\Requests\\MailRequest' => $baseDir . '/app/Http/Requests/MailRequest.php',
     'App\\Http\\Requests\\PotProductRequest' => $baseDir . '/app/Http/Requests/PotProductRequest.php',
     'App\\Http\\Requests\\ProfileUpdateRequest' => $baseDir . '/app/Http/Requests/ProfileUpdateRequest.php',
     'App\\Http\\Requests\\TextureRequest' => $baseDir . '/app/Http/Requests/TextureRequest.php',
