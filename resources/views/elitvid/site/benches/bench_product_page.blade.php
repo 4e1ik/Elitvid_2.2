@@ -313,6 +313,9 @@
                                 <div data-title="Тик" class="image_color">
                                     <img src="{{asset('/elitvid_assets/imgs/benches/colors/teak.png')}}" alt="">
                                 </div>
+                                <div data-title="Мерабу" class="image_color">
+                                    <img src="{{asset('/elitvid_assets/imgs/benches/colors/merabu.png')}}" alt="">
+                                </div>
                                 <div data-title="Дуб" class="image_color">
                                     <img src="{{asset('/elitvid_assets/imgs/benches/colors/oak.png')}}" alt="">
                                 </div>
